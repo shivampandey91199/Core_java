@@ -15,7 +15,7 @@ public class Assignment_Q38 {
 		System.out.println("Enter the age:- ");
         int i=sc.nextInt();
         if(i<18) {
-        	
+        	  throw new ArithmeticException("not valid");
         }else {
         	System.out.println("Welcome to vote");
         }
